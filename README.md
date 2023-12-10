@@ -11,7 +11,7 @@ To complete this I will write a javascript code that will:
 
 ## Installation
 
-To open the project please follow this link: https://anamorai.github.io/Password-Generator/
+To open the project please follow this link: https://anamorai.github.io/DayPlanner/
 
 ## Usage 
 
@@ -28,20 +28,22 @@ If you were to enter in something incorrectly, I have programmed an alert. It wi
 
 ## Badges
 
-![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Password-Generator/github-pages)
-![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Password-Generator)
-
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/DayPlanner/github-pages)
+![GitHub language count](https://img.shields.io/github/languages/count/anamorai/DayPlanner)
 
 ## Features
 
-- A series of prompts for password criteria including:
-- Length of password: At least 8 characters but no more than 128.
-- Character types: Lowercase, Uppercase, Numeric and Special characters ($@%&*, etc)
-- Code validates for each input and requires at least one character type to be selected
+* Dayjs to display current date
+* Display a different colour for past, present and future time
+* Have a space to add important events to a daily planner
+* Save written input into the local storage
 
 ## Credits
 
-I would like to refrence my bootcamp course, EdX and my tutor Praktiko for the great lessons provided which gave me the skills necessary to be able to complete this project as well as Web MD for the help when researching methods used in javascript file.
+I would like to refrence my bootcamp course, EdX and my tutor Praktiko for the great lessons provided which gave me the skills necessary to be able to complete this project as well as Web MD for the help when researching methods used in javascript file. The following websites were specifically helpful in my project:
+https://day.js.org/docs/en/display/format
+https://stackoverflow.com/questions/5037854/use-jquery-to-get-siblings
+https://w3schools.com/jsref/met_storage_setitem.asp
 
 ## License
 
