@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -10,16 +10,32 @@ textarea {
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   padding: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 header {
   text-align: center;
   background-color: transparent;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
   padding: 60px;
+}
+
+.lead {
+padding-top: 10px;
+}
+
+.todaysdate {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 150;
+  padding-top: 30px;
 }
 
 .description {
@@ -34,13 +50,14 @@ header {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 10px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .past {
@@ -59,7 +76,7 @@ header {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
