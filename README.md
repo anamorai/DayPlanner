@@ -1,6 +1,6 @@
 # DayPlanner
 
-I was required to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. I utilised the Day.js library to input the date and time. B
+I was required to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. I utilised the Day.js library to input the date and time. 
 
 To complete this I will write a javascript code that will:
 
