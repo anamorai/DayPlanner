@@ -5,7 +5,7 @@ console.log(timeBlockEl);
 
 $(document).ready(function () {
     // First I need to add the current day and time to the top of the page  
-    var dateTime = moment().format("MMM DD YYYY");
+    var dateTime = dayjs().format("MMM DD YYYY");
     $("#currentDay").text(dateTime);
     console.log(dateTime);
 
@@ -20,7 +20,7 @@ $(document).ready(function () {
     });
 
     //Set a variable for the current time
-    var currentTime = moment().format("HH");
+    var currentTime = dayjs().format("HH");
     console.log(currentTime);
 
     // Create a loop for the timeblock

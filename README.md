@@ -1,89 +1,68 @@
 # DayPlanner
 
-# Third-Party APIs: Work Day Scheduler
+I was required to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. I utilised the Day.js library to input the date and time. B
 
-## Your Task
+To complete this I will write a javascript code that will:
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+* Show the current date
+* Display a different colour for past, present and future time
+* Have a space to add important events to a daily planner
+* Save written input into the local storage
 
-You'll need to use the [Day.js](https://day.js.org/docs/en/display/format) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Installation
 
-## User Story
+To open the project please follow this link: https://anamorai.github.io/Password-Generator/
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Usage 
 
-## Acceptance Criteria
+Once you open the URL, you will see the following. Grey shows a time past, red shows the present hour and green shows the future.
 
-The app should:
-
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
-
-* Save the event in local storage when the save button is clicked in that timeblock.
-
-* Persist events between refreshes of a page
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+![This is the first thing you will see after opening the website](assets/images/1.png)
 
 
-## Grading Requirements
+I have also ensured my design is responsive to various screen sizes. For example on a small screen it will look like this: 
 
-This homework is graded based on the following criteria: 
+![A screenshot showing how the image will look on a smaller screen](assets/images/2.png)
 
-### Technical Acceptance Criteria: 40%
+If you were to enter in something incorrectly, I have programmed an alert. It will look like this: 
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Badges
 
-  * Uses a date utility library to work with date and time
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Password-Generator/github-pages)
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Password-Generator)
 
-### Deployment: 32%
 
-* Application deployed at live URL
+## Features
 
-* Application loads with no errors
+- A series of prompts for password criteria including:
+- Length of password: At least 8 characters but no more than 128.
+- Character types: Lowercase, Uppercase, Numeric and Special characters ($@%&*, etc)
+- Code validates for each input and requires at least one character type to be selected
 
-* Application GitHub URL submitted
+## Credits
 
-* GitHub repo contains application code
+I would like to refrence my bootcamp course, EdX and my tutor Praktiko for the great lessons provided which gave me the skills necessary to be able to complete this project as well as Web MD for the help when researching methods used in javascript file.
 
-### Application Quality: 15%
+## License
 
-* Application user experience is intuitive and easy to navigate
+MIT License
 
-* Application user interface style is clean and polished
+Copyright (c) [2023] [Anastasia Moraites]
 
-* Application resembles the mock-up functionality provided in the homework instructions
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Repository Quality: 13%
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
